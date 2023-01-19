@@ -1,5 +1,7 @@
 # simple-csharp-compiler
 
+[![Java CI with Gradle](https://github.com/Fireball19/simple-csharp-compiler/actions/workflows/gradle.yml/badge.svg)](https://github.com/Fireball19/simple-csharp-compiler/actions/workflows/gradle.yml)
+
 ## How to run
 
 #### 1. Run SableCC

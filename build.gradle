@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+mainClassName = 'StupsCompiler'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.2'
+    implementation 'com.github.freva:ascii-table:1.2.0'
+    testImplementation 'com.github.stefanbirkner:system-rules:1.19.0'
+}
+
+test {
+    useJUnitPlatform()
+}
